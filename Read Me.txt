@@ -1,4 +1,4 @@
-Read Me:
+Web Services Project
 This is a Java Project
 
 This is a web Services Project Practice session

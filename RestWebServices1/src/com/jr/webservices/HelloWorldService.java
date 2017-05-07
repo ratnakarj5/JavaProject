@@ -8,6 +8,10 @@ import javax.ws.rs.core.Response;
 @Path("/hello")
 public class HelloWorldService {
 	
+	/*
+	 * @author: Ratnakar J
+	 */
+	
 	@GET
 	@Path("/{param}")
 	public Response getMsg(@PathParam("param") String msg) {

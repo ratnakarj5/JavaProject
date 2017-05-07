@@ -13,6 +13,7 @@ public class HelloWorldService {
 	public Response getMsg(@PathParam("param") String msg) {
  
 		String output = "Jersey say : " + msg;
+		System.out.println("output : " + output);
  
 		return Response.status(200).entity(output).build();
  

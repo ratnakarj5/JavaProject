@@ -10,6 +10,7 @@ public class HelloWorldService {
 	
 	/*
 	 * @author: Ratnakar J
+	 * version: 0.0.1
 	 */
 	
 	@GET
